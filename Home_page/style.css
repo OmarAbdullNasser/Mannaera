@@ -1,0 +1,216 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  --white-color: #ffffff;
+  --main-color: #39ac3f;
+  --primary-color: #2b98d4;
+  --secound-color: #264176;
+  --danger-color: #e7332a;
+  --dark-color: #4e4e4d;
+  --light-color: #f1f1f1;
+  --secondary-color: #929292;
+  --black:#000
+  --main-raduis: 10px;
+  --main-font-size: 14px;
+  --main-font-icon: 24px;
+}
+body{
+  overflow-x: hidden;
+}
+a {
+  color: inherit !important;
+}
+
+/*Navbar*/
+.nav {
+  color: var(--secound-color) !important;
+}
+.icons i {
+  color: var(--secound-color);
+}
+.icons i:hover {
+  color: var(--main-color) !important;
+  cursor: pointer;
+}
+.navbar-nav {
+  font-weight: bold;
+}
+.nav-item {
+  color: var(--secound-color) !important;
+}
+.nav-item:hover {
+  color: var(--main-color) !important;
+}
+.active {
+  color: var(--main-color) !important;
+}
+/*Navbar*/
+
+/*Hero*/
+.Hero {
+  background-image: url("asset/HeroBanner.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 580px;
+  width: 100%;
+}
+
+.v {
+  background-color: #39ac3f;
+}
+.swiper-button {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.swiper-button:hover {
+  background-color: var(--main-color);
+}
+.swiper-button-prev {
+  margin-left: -9px;
+}
+/* Optionally, you can style the icons within the buttons */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 20px; /* Change the font size of the icon */
+  /* Add any other styles you need */
+}
+.booking{
+  background-color: var(--main-color);
+}
+/*Hero*/
+/*OURSPECIALTIES*/
+.OURSPECIALTIES{
+  background-color: #F1F1F1;
+}
+.w{
+  color: var(--main-color);
+}
+.S_card{
+  transition: box-shadow 0.5s ease;
+}
+.S_card:hover h4{
+  color: var(--main-color);
+}
+.S_card:hover p{
+ color:var(--secound-color)
+}
+.S_card:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Adjust shadow properties as needed */
+}
+/*OURSPECIALTIES*/
+/*ourdoctors*/
+.ourdoctors{
+  background-color: #DADADA ;
+  h1{
+    color:var(--main-color)
+  }
+  h5{
+    color:var(--main-color)
+  }
+  p{
+    color:#0d1f44;
+    font-weight: bolder;
+  }
+}
+/*ourdoctors*/
+/*community*/
+.community{
+background-color: var(--main-color);
+button{
+  color:var(--secound-color)
+}
+}
+
+/*community*/
+
+/*clients*/
+.clients{
+  background-color: #fff;
+  .navigation{
+    span{
+      color:var(--main-color)
+    }
+  }
+  .swiper-slide{
+    border-top: 5px solid var(--main-color); /* Green border on top */
+    border-left: 1px solid gray; /* Remove left border */
+    border-right:1px solid gray; /* Remove right border */
+    border-bottom:1px solid gray; /* Remove bottom border */
+    padding: 20px; /* Add padding for content */
+  
+    border-radius: 10px;
+  }
+  .avatar {
+    width: 50px; /* Set avatar width as needed */
+    height: 50px; /* Set avatar height as needed */
+    border-radius: 50%; /* Make the avatar circular */
+    margin-right: 10px; /* Add margin between avatar and user name */
+  }
+  
+  .user-name {
+    font-weight: bold;
+  }
+}
+/*clients*/
+/*Gallery*/
+.Gallery{
+  background-color: #F4F4F4;
+
+    h3{
+      color:var(--main-color)
+    }
+    .G_Card:hover p{
+      color: var(--main-color);
+    }
+  .q{
+    background-color: var(--main-color) !important;
+    color: white;
+  }
+}
+/*Gallery*/
+/*Videos*/
+.Videos{
+  h3{
+    color:var(--main-color)
+  }
+  p{
+    color: var(--secound-color);
+  }
+  .z{
+    border-top: 5px solid var(--main-color); /* Green border on top */
+    border-left: 1px solid gray; /* Remove left border */
+    border-right:1px solid gray; /* Remove right border */
+    border-bottom:1px solid gray; /* Remove bottom border */
+    padding: 20px; /* Add padding for content */
+  
+    border-radius: 10px;
+  }
+}
+/*Videos*/
+/*insurances*/
+.insurances{
+  background-color: var(--main-color);
+}
+/*insurances*/
+/*info*/
+.info{
+  background-color: #DADADA ;
+  color: var(--main-color);
+}
+/*info*/
+/*footer*/
+.footer{
+
+  p{
+    color:var(--secound-color)
+  }
+  ul{
+    list-style: none;
+  }
+  .q{
+    background-color: var(--main-color) !important;
+    color: white;
+  }
+}
+/*footer*/

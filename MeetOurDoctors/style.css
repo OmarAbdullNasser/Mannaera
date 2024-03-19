@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  --white-color: #ffffff;
+  --main-color: #39ac3f;
+  --primary-color: #2b98d4;
+  --secound-color: #264176;
+  --danger-color: #e7332a;
+  --dark-color: #4e4e4d;
+  --light-color: #f1f1f1;
+  --secondary-color: #929292;
+  --black:#000
+  --main-raduis: 10px;
+  --main-font-size: 14px;
+  --main-font-icon: 24px;
+}
+body{
+  overflow-x: hidden;
+}
+a {
+  color: inherit !important;
+}
+
+/*Navbar*/
+.nav {
+  color: var(--secound-color) !important;
+}
+.icons i {
+  color: var(--secound-color);
+}
+.icons i:hover {
+  color: var(--main-color) !important;
+  cursor: pointer;
+}
+.navbar-nav {
+  font-weight: bold;
+}
+.nav-item {
+  color: var(--secound-color) !important;
+}
+.nav-item:hover {
+  color: var(--main-color) !important;
+}
+.active {
+  color: var(--main-color) !important;
+}
+.bath{
+  background-color: #DADADA;
+}
+/*Navbar*/
+
+/*Meet*/
+.Meet{
+ 
+  .title{
+    color:var(--main-color);
+  }
+  h1{
+    color: var(--main-color);
+  }
+  p{
+    color:var(--secound-color)
+  }
+  .q{
+    background-color: var(--main-color) !important;
+    color: white;
+  }
+  .text{
+    background-color: #DADADA;
+  }
+}
+/*Meet*/
+
+/*info*/
+.info{
+  background-color: #DADADA ;
+  color: var(--main-color);
+}
+/*info*/
+/*footer*/
+.footer{
+
+  p{
+    color:var(--secound-color)
+  }
+  ul{
+    list-style: none;
+  }
+  .q{
+    background-color: var(--main-color) !important;
+    color: white;
+  }
+}
+/*footer*/
