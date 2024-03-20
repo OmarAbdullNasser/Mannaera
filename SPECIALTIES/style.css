@@ -19,13 +19,13 @@
   --main-font-size: 14px;
   --main-font-icon: 24px;
 }
-body{
-  font-family: "ITC Handel Gothic Arabic Bold";
-  overflow-x: hidden;
-}
 
 a {
   color: inherit !important;
+}
+body{
+  font-family: "ITC Handel Gothic Arabic Bold";
+  overflow-x: hidden;
 }
 
 /*Navbar*/
@@ -51,39 +51,66 @@ a {
 .active {
   color: var(--main-color) !important;
 }
-.bath{
-  background-color: #DADADA;
-}
 /*Navbar*/
 
-/*Meet*/
-.Meet{
- 
-  .title{
-    color:var(--main-color);
-  }
-  h1{
-    color: var(--main-color);
-  }
-  p{
-    color:var(--secound-color)
-  }
-  .q{
-    background-color: var(--main-color) !important;
-    color: white;
-  }
-  .text{
-    background-color: #DADADA;
-  }
+/*OURSPECIALTIES*/
+.OURSPECIALTIES{
+  background-color: #F1F1F1;
 }
-/*Meet*/
-
-/*info*/
-.info{
-  background-color: #DADADA ;
+.w{
   color: var(--main-color);
 }
-/*info*/
+.S_card{
+  transition: box-shadow 0.5s ease;
+}
+.S_card:hover h4{
+  color: var(--main-color);
+}
+.S_card:hover p{
+ color:var(--secound-color)
+}
+.S_card:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Adjust shadow properties as needed */
+}
+/*OURSPECIALTIES*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*footer*/
 .footer{
 
@@ -100,27 +127,28 @@ a {
 }
 /*footer*/
 #scrollToTopBtn{
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  width: 40px;
-  height: 40px;
-  font-size: 20px;
-  border: none;
-  background-color: var(--main-color);
-  color: #fff;
-  border-radius: 10px;
-  cursor: pointer;
-  z-index: 9999;
-  padding-bottom: 15px;
-  transition: opacity 0.3s ease-in-out;
-}
-#scrollToTopBtn.fade-in {
-  opacity: 1;
-}
-
-#scrollToTopBtn.fade-out {
-  opacity: 0;
-}
-
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    background-color: var(--main-color);
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 9999;
+    padding-bottom: 15px;
+    transition: opacity 0.3s ease-in-out;
+  }
+  #scrollToTopBtn.fade-in {
+    opacity: 1;
+  }
+  
+  #scrollToTopBtn.fade-out {
+    opacity: 0;
+  }
+  
+  
